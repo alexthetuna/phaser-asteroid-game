@@ -87,6 +87,14 @@ export default class Sprite {
     }
   }
 
+  getX() {
+    return this.sprite.x;
+  }
+
+  getY() {
+    return this.sprite.x;
+  }
+
   getRotation() {
     return this.sprite.rotation;
   }
